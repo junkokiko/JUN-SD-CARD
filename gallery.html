@@ -1,0 +1,209 @@
+<html>
+<html lang="en">
+<head>
+    <link rel="icon" type="image/x-icon" href="234.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JUN'S SD CARD</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #342d2d; /* Set your desired background color */
+        }
+
+        #gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(275px, 1fr));
+            gap: 10px;
+            padding: 10px;
+        }
+
+        .image {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+            cursor: pointer;
+            grid-column: span 1; /* Set initial width to span 1 column */
+            grid-row: span 1;    /* Set initial height to span 1 row */
+        }
+
+        .image:hover {
+            transform: scale(1.1);
+        }
+
+        /* Modal styles */
+        #modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.8);
+            justify-content: center;
+            align-items: center;
+        }
+
+        #modal img {
+            max-width: 90%;
+            max-height: 90%;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+
+
+<div id="gallery">
+    <img class="image" src="1.jpg" alt="Image ">
+    <img class="image" src="2.jpg" alt="Image ">
+    <img class="image" src="3.jpg" alt="Image ">
+    <img class="image" src="4.jpg" alt="Image ">
+    <img class="image" src="5.jpg" alt="Image ">
+    <img class="image" src="6.jpg" alt="Image ">
+    <img class="image" src="7.jpg" alt="Image ">
+    <img class="image" src="8.jpg" alt="Image ">
+    <img class="image" src="9.jpg" alt="Image ">
+    <img class="image" src="10.jpg" alt="Image ">
+    <img class="image" src="11.jpg" alt="Image ">
+    <img class="image" src="12.jpg" alt="Image ">
+    <img class="image" src="13.jpg" alt="Image ">
+    <img class="image" src="14.jpg" alt="Image ">
+    <img class="image" src="15.jpg" alt="Image ">
+    <img class="image" src="16.jpg" alt="Image ">
+    <img class="image" src="17.jpg" alt="Image ">
+    <img class="image" src="18.jpg" alt="Image ">
+    <img class="image" src="19.jpg" alt="Image ">
+    <img class="image" src="20.jpg" alt="Image ">
+    <img class="image" src="21.jpg" alt="Image ">
+    <img class="image" src="22.jpg" alt="Image ">
+    <img class="image" src="23.jpg" alt="Image ">
+    <img class="image" src="24.jpg" alt="Image ">
+    <img class="image" src="25.jpg" alt="Image ">
+    <img class="image" src="26.jpg" alt="Image ">
+    <img class="image" src="27.jpg" alt="Image ">
+    <img class="image" src="28.jpg" alt="Image ">
+    <img class="image" src="29.jpg" alt="Image ">
+    <img class="image" src="30.jpg" alt="Image ">
+    <img class="image" src="31.jpg" alt="Image ">
+    <img class="image" src="32.jpg" alt="Image ">
+    <img class="image" src="33.jpg" alt="Image ">
+    <img class="image" src="34.jpg" alt="Image ">
+    <img class="image" src="35.jpg" alt="Image ">
+    <img class="image" src="36.jpg" alt="Image ">
+    <img class="image" src="37.jpg" alt="Image ">
+    <img class="image" src="38.jpg" alt="Image ">
+    <img class="image" src="39.jpg" alt="Image ">
+    <img class="image" src="40.jpg" alt="Image ">
+    <img class="image" src="41.jpg" alt="Image ">
+    <img class="image" src="42.jpg" alt="Image ">
+    <img class="image" src="43.jpg" alt="Image ">
+    <img class="image" src="44.jpg" alt="Image ">
+    <img class="image" src="45.jpg" alt="Image ">
+    <img class="image" src="46.jpg" alt="Image ">
+    <img class="image" src="47.jpg" alt="Image ">
+    <img class="image" src="48.jpg" alt="Image ">
+    <img class="image" src="49.jpg" alt="Image ">
+    <img class="image" src="50.jpg" alt="Image ">
+    <img class="image" src="51.jpg" alt="Image ">
+    <img class="image" src="52.jpg" alt="Image ">
+    <img class="image" src="53.jpg" alt="Image ">
+    <img class="image" src="54.jpg" alt="Image ">
+    <img class="image" src="55.jpg" alt="Image ">
+    <img class="image" src="56.jpg" alt="Image ">
+    <img class="image" src="57.jpg" alt="Image ">
+    <img class="image" src="58.jpg" alt="Image ">
+    <img class="image" src="59.jpg" alt="Image ">
+    <img class="image" src="60.jpg" alt="Image ">
+    <img class="image" src="61.jpg" alt="Image ">
+    <img class="image" src="62.jpg" alt="Image ">
+    <img class="image" src="63.jpg" alt="Image ">
+    <img class="image" src="64.jpg" alt="Image ">
+    <img class="image" src="65.jpg" alt="Image ">
+    <img class="image" src="66.jpg" alt="Image ">
+    <img class="image" src="67.jpg" alt="Image ">
+    <img class="image" src="68.jpg" alt="Image ">
+    <img class="image" src="69.jpg" alt="Image ">
+    <img class="image" src="70.jpg" alt="Image ">
+    <img class="image" src="71.jpg" alt="Image ">
+    <img class="image" src="72.jpg" alt="Image ">
+    <img class="image" src="73.jpg" alt="Image ">
+    <img class="image" src="74.jpg" alt="Image ">
+    <img class="image" src="75.jpg" alt="Image ">
+    <img class="image" src="76.jpg" alt="Image ">
+    <img class="image" src="77.jpg" alt="Image ">
+    <img class="image" src="78.jpg" alt="Image ">
+    <img class="image" src="79.jpg" alt="Image ">
+    <img class="image" src="80.jpg" alt="Image ">
+    <img class="image" src="81.jpg" alt="Image ">
+    <img class="image" src="82.jpg" alt="Image ">
+    <img class="image" src="83.jpg" alt="Image ">
+    <img class="image" src="84.jpg" alt="Image ">
+    <img class="image" src="85.jpg" alt="Image ">
+    <img class="image" src="86.jpg" alt="Image ">
+    <img class="image" src="87.jpg" alt="Image ">
+    <img class="image" src="88.jpg" alt="Image ">
+    <img class="image" src="89.jpg" alt="Image ">
+    <img class="image" src="90.jpg" alt="Image ">
+    <img class="image" src="91.jpg" alt="Image ">
+    <img class="image" src="92.jpg" alt="Image ">
+    <img class="image" src="93.jpg" alt="Image ">
+    <img class="image" src="94.jpg" alt="Image ">
+    <img class="image" src="95.jpg" alt="Image ">
+    <img class="image" src="96.jpg" alt="Image ">
+    <img class="image" src="97.jpg" alt="Image ">
+    <img class="image" src="98.jpg" alt="Image ">
+    <img class="image" src="99.jpg" alt="Image ">
+    <img class="image" src="100.jpg" alt="Image ">
+    <img class="image" src="101.jpg" alt="Image ">
+    <img class="image" src="102.jpg" alt="Image ">
+    <img class="image" src="103.jpg" alt="Image ">
+    <img class="image" src="104.jpg" alt="Image ">
+    <img class="image" src="105.jpg" alt="Image ">
+    <img class="image" src="106.jpg" alt="Image ">
+    <img class="image" src="107.jpg" alt="Image ">
+    <img class="image" src="108.jpg" alt="Image ">
+    <img class="image" src="109.jpg" alt="Image ">
+    <img class="image" src="110.jpg" alt="Image ">
+    <img class="image" src="111.jpg" alt="Image ">
+    <img class="image" src="112.jpg" alt="Image ">
+    <img class="image" src="113.jpg" alt="Image ">
+    <img class="image" src="114.jpg" alt="Image ">
+    <img class="image" src="115.jpg" alt="Image ">
+    <img class="image" src="116.jpg" alt="Image ">
+    <img class="image" src="117.jpg" alt="Image ">
+    <img class="image" src="118.jpg" alt="Image ">
+    <img class="image" src="119.jpg" alt="Image ">
+    <img class="image" src="120.jpg" alt="Image ">
+    <img class="image" src="121.jpg" alt="Image ">
+    <img class="image" src="122.jpg" alt="Image ">
+    <img class="image" src="123.jpg" alt="Image ">
+</div>
+
+<div id="modal">
+    <img id="modalImage" alt="Modal Image">
+</div>
+
+<script>
+    const images = document.querySelectorAll('.image');
+    const modal = document.getElementById('modal');
+    const modalImage = document.getElementById('modalImage');
+
+    images.forEach(image => {
+        image.addEventListener('click', () => {
+            modalImage.src = image.src;
+            modalImage.alt = image.alt;
+            modal.style.display = 'flex';
+        });
+    });
+
+    modal.addEventListener('click', () => {
+        modal.style.display = 'none';
+    });
+</script>
+
+</body>
+</html>
